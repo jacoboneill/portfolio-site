@@ -426,6 +426,8 @@ main > *:not(#projects) {
   width: 100%;
   object-fit: contain;
   margin: 0 0 1rem;
+  border-radius: calc(var(--border-radius) * 2);
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.75);
 }
 
 .project ul {
