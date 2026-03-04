@@ -397,13 +397,34 @@ main > *:not(#projects) {
 }
 
 #projects > .container {
-  max-width: 900px;
+  max-width: 1280px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
   align-items: center;
   justify-content: center;
+}
+
+@media (min-width: 768px) {
+  #projects > .container {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    max-width: none;
+    padding: 1rem calc(50vw - 192px);
+  }
+
+  #projects > .container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .project {
+    flex-shrink: 0;
+    scroll-snap-align: center;
+  }
 }
 
 .project {
