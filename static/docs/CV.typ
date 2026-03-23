@@ -1,4 +1,3 @@
-// Clean & Minimal CV
 #set page(
   paper: "a4", margin: (top: 0.5in, bottom: 0.5in, left: 0.6in, right: 0.6in),
 )
@@ -30,6 +29,8 @@
   )[
     #link("mailto:jacoboneill2000@outlook.com")[jacoboneill2000\@outlook.com]
     #h(10pt)
+    #link("https://jacoboneill.dev")[jacoboneill.dev]
+    #h(10pt)
     #link("https://github.com/jacoboneill")[github.com/jacoboneill]
     #h(10pt)
     Warwickshire, UK
@@ -38,27 +39,29 @@
 
 // Profile
 #section("Profile")
-Backend-focused software developer with 3.5 years of professional experience building web applications, industrial platforms, and IoT systems. Comfortable working across the full stack from embedded firmware to production infrastructure. Currently deepening Go expertise through portfolio projects and structured self-study.
+Software developer with 3.5 years of professional experience building web applications, industrial platforms, and IoT systems. Comfortable working across the full stack from embedded firmware to production infrastructure. Currently deepening Go and Python expertise through portfolio projects and structured self-study.
 
 // Skills
 #section("Skills")
-*Languages:* Go, Python, C++, TypeScript, JavaScript\
+*Languages:* Python, Go, Bash, TypeScript, C++,\
+*Infrastructure:* Docker Containerisation, Linux, GitHub Actions CI/CD, Nginx\
 *Backend & Web:* REST APIs, Flask, Express, React, HTMX, Templ\
-*Databases:* PostgreSQL, SQLite, MongoDB, database migrations\
-*Infrastructure:* Docker, Linux, GitHub Actions CI/CD, Nginx\
-*Practices:* Test Driven Development, Git, agile delivery
+*Databases:* PostgreSQL, SQLite, MongoDB, Database Migrations\
+*Development:* Git, Test Driven Development (TDD), Technical Documentation, Agile Delivery\
+*Homelab:* Self-hosted Docker Compose infrastructure with Tailscale networking and media services
 
 // Work Experience
 #section("Work Experience")
 
 #entry[*Director & Founder,* O'Neill Technology Solutions Ltd][Jan 2026 -- Present]
-- Delivered technical consultancy across multiple concurrent client engagements including e-learning platform deployment (TalentLMS), GDPR/DPA compliance, and German translation project coordination
-- Managed subcontractor delivery with daily standups, milestone tracking, and quality assurance for a SCORM content pipeline using Preact, Vite, and authenticated CDN asset handling
+- Delivered technical consultancy across multiple concurrent client engagements including e-learning platform deployment (TalentLMS), GDPR/DPA compliance, and German localisation project coordination
+- Built a custom SCORM content generation framework with a CLI tool, streamlining production of e-learning packages using Preact, Vite, and authenticated CDN asset handling
+- Managed subcontractor delivery with daily standups, milestone tracking, and quality assurance
 - Handled all business operations: client negotiation, invoicing, IR35 compliance (outside-IR35), and contract management
 
 #entry[*Software Developer (Contract),* CGS Engineering][Jan 2025 -- Feb 2026]
 - Sole developer on an ATEX industrial compliance web application, owning the full lifecycle from requirements gathering with domain experts through to architecture design, implementation, and technical documentation
-- Built a web application serving multiple client organisations with Flask, React, PostgreSQL, and Docker, featuring role-based access control and white-label theming
+- Built and deployed a containerised web application (Flask, React, PostgreSQL, Docker) serving multiple client organisations, with role-based access control and white-label theming
 - Produced architecture documentation and technical specifications to support handover, future development, and onboarding of additional team members
 
 #entry[*Lead Software Developer,* Bioscope Technologies][Jan 2021 -- Mar 2023]
@@ -70,6 +73,7 @@ Backend-focused software developer with 3.5 years of professional experience bui
 - Team leadership role between technical positions; managed shifts, handled financial processes, and improved customer experience
 
 // Projects
+#pagebreak()
 #section("Projects")
 
 #entry[*SecureBin* -- Encrypted pastebin][#link(
@@ -90,6 +94,12 @@ Backend-focused software developer with 3.5 years of professional experience bui
   )[github.com/jacoboneill/pico-bios-kbd]]
 - Four-button USB HID keyboard built on a Raspberry Pi Pico W for headless BIOS navigation
 - Embedded development demonstrating microcontroller programming and USB protocol handling
+
+#entry[*fzf-music* -- Terminal music player][#link(
+    "https://github.com/jacoboneill/fzf-music",
+  )[github.com/jacoboneill/fzf-music]]
+- CLI tool for browsing and playing music playlists with fzf-powered search and album art previews
+- Built with Bash scripting, demonstrating Unix pipeline composition and CLI tool design
 
 // Education
 #section("Education")
