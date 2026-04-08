@@ -34,3 +34,14 @@ document.querySelectorAll(".project").forEach((p) => {
     preview.replaceWith(newPreviewVideo(name));
   });
 });
+
+const projectContainer = document.querySelector("#projects > .container");
+function updateCarouselAlignment() {
+  if (projectContainer.scrollWidth > projectContainer.clientWidth) {
+    projectContainer.style.justifyContent = "flex-start";
+  } else {
+    projectContainer.style.justifyContent = "center";
+  }
+}
+updateCarouselAlignment();
+window.addEventListener("resize", updateCarouselAlignment);

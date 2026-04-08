@@ -408,13 +408,17 @@ main > *:not(#projects) {
 
 @media (min-width: 768px) {
   #projects > .container {
+    margin: 0;
+    max-width: none;
     flex-wrap: nowrap;
-    overflow-x: auto;
+    justify-content: flex-start;
+    padding: 1rem 1rem 1rem 3rem;
+    overflow-x: scroll;
+    overflow-y: clip;
     scroll-snap-type: x mandatory;
+    scroll-padding-left: 2rem;
     scroll-behavior: smooth;
     scrollbar-width: none;
-    max-width: none;
-    padding: 1rem calc(50vw - 192px);
   }
 
   #projects > .container::-webkit-scrollbar {
@@ -423,7 +427,7 @@ main > *:not(#projects) {
 
   .project {
     flex-shrink: 0;
-    scroll-snap-align: center;
+    scroll-snap-align: start;
   }
 }
 
