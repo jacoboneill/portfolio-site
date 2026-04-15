@@ -40,7 +40,7 @@
 
 // Profile
 #section("Profile")
-Software engineer with 3.5 years building production systems across IoT, industrial compliance, and e-learning. Comfortable across the full stack from embedded firmware to deployment infrastructure. Strongest in Go and Python for backend work.
+Software engineer with 2.5 years building production systems across IoT, industrial compliance, and e-learning. Comfortable across the full stack from embedded firmware to deployment infrastructure. Strongest in Go and Python for backend work.
 
 // Skills
 #section("Skills")
@@ -62,7 +62,7 @@ Software engineer with 3.5 years building production systems across IoT, industr
 - Subsequent engagements included building a custom SCORM content generation framework published as a private npm package (Preact, Vite) and deploying a TalentLMS e-learning platform with GDPR/DPA compliance and German localisation
 - Operated through my own limited company, handling client scoping, contract negotiation, and delivery directly
 
-#entry[*Lead Software Developer,* Bioscope Technologies][Jan 2021 -- Mar 2023]
+#entry[*Lead Software Developer,* Bioscope Technologies][Jan 2022 -- Mar 2023]
 - Led full-stack IoT system development: electronic circuit design, ESP32 embedded firmware (C++), Node.js/Express backend APIs, and React frontend dashboard
 - Built real-time environmental monitoring with ESP32 sensor nodes streaming data via WebSockets to a live dashboard, automating manual measurement processes with projected savings of £250k--£500k per year per factory
 - Set up and maintained an on-premises Linux server running Docker for production deployment
