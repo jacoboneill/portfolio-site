@@ -254,6 +254,14 @@ main > *:not(#projects) {
   object-fit: contain;
 }
 
+#technologies figure > img[alt="Linux Logo"] {
+  transform: scale(1.2);
+}
+
+#technologies figure > img[alt="Docker Logo"] {
+  transform: scale(1.5);
+}
+
 #technologies figcaption {
   margin-top: 0.5rem;
   font-style: italic;
