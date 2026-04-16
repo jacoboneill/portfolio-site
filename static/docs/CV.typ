@@ -99,4 +99,4 @@ Software engineer with 2.5 years building production systems across IoT, industr
 // Education
 #section("Education")
 #entry[*Harvard (online via edX)* -- CS50x: Introduction to Computer Science][Nov 2024]
-#entry[*University of Central Lancashire* -- BSc (Hons) Live Audio Engineering and Music Production (First Class)][June 2023]
+#entry[*University of Central Lancashire* -- BSc (Hons) Live Audio Engineering and Music Production (First Class)][Jun 2023]
